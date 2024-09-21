@@ -61,8 +61,12 @@ body{
 .imput-item{
     display: flex;
     align-items: center;
+    color: #fff;
     flex-direction: column;
 }
+.imput-item label{
+    margin-bottom: 5px;
+} 
 .main-parrafo{
     font-size: 1.1rem;
     color: #fff;
@@ -84,6 +88,10 @@ body{
 }
 .btn:hover{
     background: #d9d9d9;
+}
+.minMax{
+    text-align: center;
+    color: #000;
 }
 .btn-container--btn{
     width: 100%;
