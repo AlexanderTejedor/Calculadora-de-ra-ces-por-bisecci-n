@@ -1,0 +1,102 @@
+:root{
+    --bg-color: #ffffff47;
+    --btn-color: rgba(217, 217, 217, 0.8);
+    --solution-color: rgba(204, 204, 204, 0.9);
+
+    /*Colors bg*/
+    --green: #175053;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+*::selection{
+    background: var(--green);
+    color: #fff;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://i.pinimg.com/564x/2b/8b/22/2b8b22d03ac19348e8be5679ae803654.jpg");
+}
+.main-container{
+    max-width: 330px;
+}
+.title-container{
+    width: 330px;
+    background: var(--bg-color);
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    margin-bottom: 18px;
+    box-shadow: 8px 10px 4px rgba(0, 0, 0, 0.25);
+}
+.title-container--h1{
+    text-align: center;
+    line-height: 1.1;
+    font-size: 1.563rem;
+    padding: 14px 25px;
+    color: #fff;
+}
+.main-content{
+    width: 330px;
+    background: var(--bg-color);
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    padding: 21px 28px;
+    box-shadow: 8px 10px 4px rgba(0, 0, 0, 0.25);
+}
+#form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.btn{
+    width: 6rem;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    background: var(--btn-color);
+    color: #515151;
+    outline: none;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.25);
+    transition: background 0.3s;
+}
+.btn:hover{
+    background: #d9d9d9;
+}
+.btn-signo{
+    width: 3.813rem;
+}
+.btn-container--btn{
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    margin-top: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--btn-color);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+#solution-content {
+    width: 100%;
+    background-color: var(--solution-color);
+    box-shadow: 8px 10px 4px rgba(0, 0, 0, 0.25);
+}
+.btn-container--btn:hover{
+    background-color: var(--green);
+    color: #fff;
+}
+
+/* Responsive */
