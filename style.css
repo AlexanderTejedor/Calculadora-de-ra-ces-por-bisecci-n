@@ -54,12 +54,23 @@ body{
 #form{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     gap: 10px;
     margin-bottom: 10px;
 }
+.imput-item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.main-parrafo{
+    font-size: 1.1rem;
+    color: #fff;
+    text-align: center;
+}
 .btn{
-    width: 6rem;
-    padding: 10px;
+    width: 3.813rem;
+    padding: 5px;
     text-align: center;
     border: none;
     border-radius: 8px;
@@ -73,9 +84,6 @@ body{
 }
 .btn:hover{
     background: #d9d9d9;
-}
-.btn-signo{
-    width: 3.813rem;
 }
 .btn-container--btn{
     width: 100%;

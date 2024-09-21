@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,16 +15,35 @@
         </section>
         <section class="main-content">
             <form id="form" action="">
-                <input class="btn" type="text" placeholder="Valor 1">
-                <input class="btn btn-signo" type="text" placeholder="+">
-                <input class="btn" type="text" placeholder="Valor 3">
-                <input class="btn" type="text" placeholder="Valor 4">
-                <input class="btn btn-signo" type="text" placeholder="-">
-                <input class="btn" type="text" placeholder="Valor 6">
+                <h3 class="main-parrafo">Ingresa los coeficientes del polinomio</h3>
+                <div class="imput-item">
+                    <label for="">a(x<sup>3</sup>)</label>
+                    <input class="btn" type="text">
+                </div>
+                <div class="imput-item">
+                    <label for="">b(x<sup>2</sup>)</label>
+                    <input class="btn btn-signo" type="text">
+                </div>
+                <div class="imput-item">
+                    <label for="">c(x)</label>
+                    <input class="btn" type="text">
+                </div>
+                <div class="imput-item">
+                    <label for="">d(cons)</label>
+                    <input class="btn" type="text">
+                </div>
+                <div class="imput-item">
+                    <label for="">Limit inf</label>
+                    <input class="btn btn-signo" type="text">
+                </div>
+                <div class="imput-item">
+                    <label for="">Max limit</label>
+                    <input class="btn" type="text">
+                </div>
             </form>
             <section class="btn-container">
-                <button id="btn-send" class="btn-container--btn">Botón 1</button>
-                <button id="btn-toggle" class="btn-container--btn">Botón 2</button>
+                <button id="btn-send" class="btn-container--btn">Buscar Raíces</button>
+                <button id="btn-toggle" class="btn-container--btn">Buscar Maximo/Minimo</button>
             </section>
         </section>
         <section id="solution-content">
