@@ -91,6 +91,9 @@ body{
 }
 #solution-content {
     width: 100%;
+    margin-top: 18px;
+    border-radius: 8px;
+    text-align: center;
     background-color: var(--solution-color);
     box-shadow: 8px 10px 4px rgba(0, 0, 0, 0.25);
 }
@@ -100,3 +103,11 @@ body{
 }
 
 /* Responsive */
+
+/*  tablet  */
+@media (min-width: 529px){
+    body{
+        background-position: 50% 50%;
+        background-size: cover;
+    }
+}
